@@ -1,0 +1,93 @@
+# KUDOS MOMENTS — BIRTHDAY VIDEO CARD (MVP)
+
+## One-line positioning
+A simple way to collect birthday messages from friends and deliver them as one shared surprise moment.
+
+---
+
+## Product Summary
+Kudos Moments is a web app where a user creates a birthday page for someone, invites friends and family to contribute short messages, and delivers everything as one combined experience on the recipient’s birthday. The focus is only on birthday group messages.
+
+---
+
+## Core Purpose
+Make it easy for multiple people to contribute meaningful birthday messages without coordination, group chats, or manual organizing.
+
+---
+
+## Problem Being Solved
+
+### Emotional problem
+People want to feel remembered and appreciated by multiple people, not just one message.
+
+### Social problem
+Friends want to participate but don’t coordinate, forget, or send low-effort messages.
+
+### Coordination problem
+There is no simple place to collect and organize group birthday messages.
+
+---
+
+## User Outcome
+The recipient receives one link on their birthday that contains multiple video or text messages from friends and family.
+
+---
+
+## Target Users
+
+- **Organizer:** The person creating the birthday page for someone else  
+- **Contributors:** Friends, family, coworkers submitting messages  
+- **Recipient:** The person being celebrated  
+
+---
+
+## Core Experience Flow
+
+1. User creates a birthday page with name and date  
+2. User shares a link with contributors  
+3. Contributors submit a short video or text message without needing an account  
+4. All messages are collected on one page  
+5. On the birthday date, the page is revealed to the recipient  
+
+---
+
+## MVP Features
+
+- Create a birthday page  
+- Shareable invite link  
+- Video or text submission from contributors  
+- Simple collection page of all submissions  
+- Scheduled reveal on a specific date  
+
+---
+
+## Out of Scope for MVP
+
+- Payments or gift splitting  
+- Gift marketplace or affiliate links  
+- Real-time collaboration  
+- Live video calls  
+- Automatic video editing or rendering  
+- AI features  
+- Social network features  
+
+---
+
+## Key Principle
+Reduce friction for contributors as much as possible while maximizing emotional impact for the recipient.
+
+---
+
+## Differentiation
+Not a video editor, not a social network, not a gifting platform.
+
+It is a simple system for collecting and delivering group birthday messages in one place.
+
+---
+
+## Success Criteria
+
+- A user can create a page in under one minute  
+- Contributors can submit in under two minutes  
+- No instructions are needed for people to understand how to participate  
+- The final experience feels clear and meaningful without explanation  
