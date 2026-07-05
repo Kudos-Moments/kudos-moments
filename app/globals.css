@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  /* Color tokens — Kudos Moments brand palette (see docs/kudos-moments-page-mockups.md) */
+  --color-background: #FAF7F5;
+  --color-surface: #FFFFFF;
+  --color-text-primary: #1C1C1C;
+  --color-text-secondary: #6B6B6B;
+  --color-accent: #FF6B6B;
+  --color-accent-strong: #D85A30;
+  --color-accent-deep: #993C1D;
+  --color-border: #EAE6DF;
+  --color-border-soft: #E2DED5;
+  --color-ink: #2C2C2A;
+  --color-badge-locked-bg: #F1EFE8;
+  --color-badge-locked-text: #5F5E5A;
+
+  /* Radius tokens */
+  --radius-card: 12px;
+  --radius-modal: 16px;
+
+  /* Fonts, wired to next/font CSS variables in app/layout.tsx */
+  --font-serif: var(--font-playfair), Georgia, serif;
+  --font-sans: var(--font-inter), "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-accent) 30%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 250ms ease-out both;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fade-in 200ms ease-out both;
+}
